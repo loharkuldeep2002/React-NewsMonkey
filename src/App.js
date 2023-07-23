@@ -1,18 +1,18 @@
-
 import './App.css';
-
-import React, { Component } from 'react'
-import NavBar from './com/NavBar';
+import React, { Component } from 'react';
 import News from './com/News';
+import NavBar from './com/NavBar';
 
 export default class App extends Component {
 
   render() {
     return (
-      <div>
-        <NavBar/>
-        <News/>
-      </div>
+      
+        <div>
+          <NavBar/>
+          <News/>
+        </div>
+      
     )
   }
 }
